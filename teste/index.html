@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resgatando São José</title>
+    <style>
+        body, ul, li, p {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+h4 {
+    color: blue;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+
+.header {
+    background: blue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+    margin-left: 5px;
+}
+
+.menu li a {
+    display: block;
+    padding: 10px;
+    color: white;
+}
+
+/*CSS FLEXBOX */
+
+.flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.flexbox > div {
+    flex: 1 1 200px;
+    margin: 10px;
+}   
+    </style>
+</head>
+
+<body>
+    
+    <header class="header">
+        <a href="./index.html"><img src="rsj.png" alt=""></a>
+        <nav>
+            <ul class="menu">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="/">Sobre</a></li>
+                <li><a href="/">Registre-se</a></li>
+                <li><a href="/">Contatos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h1>Notícias</h1>
+
+    <section class="flexbox">
+        <div>
+            <h4>COVID-19</h4>
+            <a href="pag1.html" target="_blank" rel="external"><img src="covid.png" alt=""></a> <!--link na img-->
+            <p><a href="pag1.html" target="_blank" rel="external">São José volta a fase vermelha</a></p> <!--link no txt-->
+        </div>
+        <div>
+            <h4>Futebol</h4>
+            <a href="pag1.html" target="_blank" rel="external"><img src="sjc.png" alt=""></a>
+            <p><a href="pag1.html" target="_blank" rel="external">SJEC vence campeonato paulista sub-23</a></p>
+        </div>
+        <div>
+            <h4></h4>
+            <img src="./" alt="">
+            <p></p>
+        </div>
+        <div>
+            <h4></h4>
+            <img src="./" alt="">
+            <p></p>
+        </div>
+        <div>
+            <h4></h4>
+            <img src="./" alt="">
+            <p></p>
+        </div>
+        <div>
+            <h4></h4>
+            <img src="./" alt="">
+            <p></p>
+        </div>
+
+        
+    </section>
+
+</body>
+</html>
